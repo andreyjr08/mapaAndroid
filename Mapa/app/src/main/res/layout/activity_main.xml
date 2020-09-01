@@ -14,32 +14,38 @@
         tools:layout_editor_absoluteY="1dp"
         tools:ignore="MissingConstraints">
 
+
         <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
+            android:id="@+id/direccion"
+            android:layout_width="396dp"
             android:layout_height="wrap_content"
-            android:text="Button"
-            android:onClick="mostrarMapa"/>
-
-        <TextView
-            android:id="@+id/mensaje_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
-
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Mi direccion es: " />
+            android:text="Traer Direccion" />
 
         <EditText
             android:id="@+id/mensaje_id2"
-            android:layout_width="match_parent"
+            android:layout_width="397dp"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="Name" />
+
+        <Button
+            android:id="@+id/ruta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Macar Ruta" />
+
+        <TextView
+            android:id="@+id/longitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/latitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
